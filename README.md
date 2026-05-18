@@ -36,7 +36,7 @@ Aplicación web para la gestión de productos, ventas y stock.
 - PHP
 - MySQL
 
-**Estado:** ✅ Finalizado
+**Estado:**  Finalizado
 
 **Repositorio:**  
 https://github.com/FrancisLoayza/sistema-inventario
