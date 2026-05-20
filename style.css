@@ -1,0 +1,12 @@
+/*La parte mas general va a bajo y la mas especifica arriba*/
+/* 
+el *{} Es universal
+h1{},h2{}.... es general
+.subtitle{} es para un case
+#photo es para un ID los ID son unicos, sin comparten caracteristicas es mejor una clase
+
+todo se representa como cajas dentro de html
+
+margin es el margen entre cajas
+border el tamaño de la caja
+y padding es el margen de la caja con respecto a lo interior
