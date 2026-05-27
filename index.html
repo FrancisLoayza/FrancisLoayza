@@ -5,6 +5,21 @@
         <meta charset="UTF-8">
         <title>Mi Currículum Vitae</title>
         <link rel="stylesheet" href="styles.css">
+        
+
+        <link 
+        rel="stylesheet" 
+        href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+        <style>
+            #map {
+                height: 500px;
+                width: 100%;
+            }
+        </style>
+
+
+
     </head> 
 
     <body>
@@ -15,8 +30,8 @@
             <h3>Ingeniera En Computcion</h3>
             <div>
                 <div><p>Estado: Estudiante</p> </div>
-                <div><p>Correo:faloayza@espol.edu.ec</p></div>
-                <div><p>Telefono:0982201333</p></div>
+                <div><p>Correo: faloayza@espol.edu.ec</p></div>
+                <div><p>Telefono: 0982201333</p></div>
             </div>
         </div>
 
@@ -26,14 +41,16 @@
                 <li><a href="#Habilidades">Habilidades</a></li>
                 <li><a href="#educacion">Educación</a></li>
                 <li><a href="#habilidades_tecnicas">Habilidades Tecnicas</a></li>
-                <li><a href="#proyectos">Proyectos</a></li> 
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#conoceme">Conoceme</a></li>
+                <li><a href="#localidad">Localidad</a></li> 
             </ul>
         </nav>
         <main>
             <section id="resumen">
                 <h2>Resumen</h2>
                 <p>Breve descripción de tus habilidades y experiencia.</p>
-            </section>
+                </section>
             <section id="Habilidades">
                 <h2>Habilidades</h2>
                 <p>Descripción de tus habilidades personales.</p>
@@ -99,8 +116,43 @@
                     </tbody>
                 </table>
             </section>
+
+            <section id="conoceme">
+                <h2>Conoceme</h2>
+                <div class="v-container"><iframe width="560" height="315"   src="https://www.youtube.com/embed/Me2aXBodqnA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> </div>
+            </section>
+            
+            <section id="localidad">
+                <h2>Localidad</h2>
+                <div id="map">
+                    
+                    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+                    <script>
+                        const guayaquil = [-2.17, -79.89];
+
+                        const map = L.map('map').setView(guayaquil, 11);
+
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                            attribution: '© OpenStreetMap'
+                        }).addTo(map);
+
+                        L.circle(guayaquil, {
+                            color: 'blue',
+                            fillColor: '#3b82f6',
+                            fillOpacity: 0.3,
+                            radius: 7000 // metros
+                        }).addTo(map)
+                        .bindPopup('Guayaquil, Guayas, Ecuador');
+                    </script>
+                </div>
+            </section>
+
         </main>
-        
+
+
+
+
         <form>
             <h2>Contacto</h2>
             <label for="nombre">Nombre:</label>
