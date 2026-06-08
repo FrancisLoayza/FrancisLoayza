@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Curriculum</title>
+        
         <meta charset="UTF-8">
-        <title>Mi Currículum Vitae</title>
-        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Francis Loayza - Curriculum Vitae</title>
+        <link rel="stylesheet" href="style.css">
         
 
         <link 
@@ -25,20 +26,38 @@
     <body>
         <header>
             <h1>Francis Loayza</h1>
+            <section class="foto-perfil">
+                <img src="FotoFrancis.jpeg"
+                    alt="Foto de Francis"
+                    width="150">
+            </section>
         </header>
-        <div>
-            <h3>Ingeniera En Computcion</h3>
-            <div>
-                <div><p>Estado: Estudiante</p> </div>
+        <div class="perfil">
+            <h3>Ingeniería en Computación</h3>
+
+            <div class="info-container">
+                <div><p>Estado: Estudiante</p></div>
                 <div><p>Correo: faloayza@espol.edu.ec</p></div>
-                <div><p>Telefono: 0982201333</p></div>
+                <div><p>Teléfono: 0982201333</p></div>
+            </div>
+
+            <div class="redes">
+                <h3>Redes Sociales</h3>
+
+                <a href="https://github.com/FrancisLoayza" target="_blank">
+                    GitHub
+                </a>
+
+                <a href="https://linkedin.com/in/TU_USUARIO" target="_blank">
+                    LinkedIn
+                </a>
             </div>
         </div>
 
         <nav>
             <ul>
                 <li><a href="#resumen">Resumen</a></li>
-                <li><a href="#Habilidades">Habilidades</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#educacion">Educación</a></li>
                 <li><a href="#habilidades_tecnicas">Habilidades Tecnicas</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
@@ -49,14 +68,42 @@
         <main>
             <section id="resumen">
                 <h2>Resumen</h2>
-                <p>Breve descripción de tus habilidades y experiencia.</p>
-                </section>
-            <section id="Habilidades">
+                <p>
+                Soy estudiante de Ingeniería en Computación en la Escuela Superior Politécnica del Litoral (ESPOL), con interés en el desarrollo de software, la inteligencia artificial, el aprendizaje automático y el análisis de datos. Me caracterizo por mi capacidad para resolver problemas, aprender nuevas tecnologías de forma autónoma y trabajar de manera colaborativa en proyectos académicos y personales.
+
+                Durante mi formación he adquirido experiencia en programación utilizando lenguajes como Python, Java, C y SQL, así como en el desarrollo de aplicaciones web con HTML y CSS. También he participado en proyectos relacionados con redes neuronales convolucionales y visión por computadora, desarrollando modelos de clasificación de imágenes mediante TensorFlow y otras herramientas de aprendizaje profundo.
+
+                Además, cuento con conocimientos en bases de datos, control de versiones con Git, sistemas operativos Linux y diversas bibliotecas para análisis de datos y computación científica. Mi objetivo es continuar fortaleciendo mis habilidades técnicas y profesionales para contribuir al desarrollo de soluciones tecnológicas innovadoras y de alto impacto.
+                </p>
+            </section>
+            <section id="habilidades">
                 <h2>Habilidades</h2>
-                <p>Descripción de tus habilidades personales.</p>
+
+                <ul>
+                    <li>Resolución de problemas</li>
+                    <li>Pensamiento analítico</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Aprendizaje autónomo</li>
+                    <li>Comunicación efectiva</li>
+                    <li>Adaptabilidad a nuevas tecnologías</li>
+                    <li>Gestión del tiempo</li>
+                    <li>Atención al detalle</li>
+                </ul>
             </section>
             <section id="educacion">
                 <h2>Educación</h2>
+
+                <div class="educacion-card">
+                    <h3>COPOL</h3>
+                    <p>Bachiller en Ciencias</p>
+                    <p>Graduado en 2022</p>
+                </div>
+
+                <div class="educacion-card">
+                    <h3>Escuela Superior Politécnica del Litoral (ESPOL)</h3>
+                    <p>Ingeniería en Computación</p>
+                    <p>2023 - Actualidad</p>
+                </div>
             </section>
             <section id="habilidades_tecnicas">
                 <h2>Habilidades Tecnicas</h2>
@@ -99,19 +146,19 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Proyecto 1</td>
-                            <td>Descripción del proyecto 1.</td>
-                            <td><p>Enlace1</p></td>
+                            <td>PerrosVSGatos</td>
+                            <td>Clasificador de Perros y Gatos con TensorFlow: Implementación de una red neuronal convolucional (CNN) entrenada con un dataset de imágenes etiquetadas para identificar automáticamente si una imagen corresponde a un perro o un gato, alcanzando una alta precisión en la clasificación.</td>
+                            <td><a href="https://github.com/FrancisLoayza/PerrosVSGatos">https://github.com/FrancisLoayza/PerrosVSGatos</a></td>
                         </tr>
                         <tr>
-                            <td>Proyecto 2</td>
-                            <td>Descripción del proyecto 2.</td>
-                            <td><p>Enlace2</p></td>
+                            <td>Deteccion de Emociones</td>
+                            <td>Clasificador de Emociones Faciales con TensorFlow: Implementación de una red neuronal convolucional (CNN) capaz de identificar siete emociones a partir de imágenes faciales. Se aplicaron técnicas de aumento de datos, regularización y optimización avanzada para mejorar la precisión y robustez del modelo.</td>
+                            <td><a href="https://github.com/FrancisLoayza/DeteccionEmociones">https://github.com/FrancisLoayza/DeteccionEmociones</a></td>
                         </tr>
                         <tr>
-                            <td>Proyecto 3</td>
-                            <td>Descripción del proyecto 3.</td>
-                            <td><p>Enlace3</p></td>
+                            <td>Plataforma de Compra Venta</td>
+                            <td>Plataforma de Compra y Venta Tipo Marketplace: Desarrollo de una aplicación web orientada a la publicación, búsqueda y gestión de productos para compra y venta entre usuarios. La plataforma permite crear anuncios, visualizar catálogos de productos, gestionar información de vendedores y facilitar la interacción entre compradores y vendedores mediante una interfaz intuitiva y organizada.</td>
+                            <td><a href="https://github.com/jorfxd/ProyectoLP">https://github.com/jorfxd/ProyectoLP</a></td>
                         </tr>
                     </tbody>
                 </table>

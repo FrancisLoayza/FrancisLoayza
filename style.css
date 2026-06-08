@@ -3,10 +3,175 @@
 el *{} Es universal
 h1{},h2{}.... es general
 .subtitle{} es para un case
-#photo es para un ID los ID son unicos, sin comparten caracteristicas es mejor una clase
+#photo es para un ID, los ID son unicos, sin comparten caracteristicas es mejor una clase
 
 todo se representa como cajas dentro de html
 
 margin es el margen entre cajas
 border el tamaño de la caja
 y padding es el margen de la caja con respecto a lo interior
+*/
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+
+
+body{
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    background-color:#f4f6f4;
+    color:#333;
+    line-height:1.6;
+}
+
+
+
+header{
+    background:#3a654b;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+
+
+nav{
+    background:white;
+    padding:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+nav a{
+    text-decoration:none;
+    color:#3a654b;
+    font-weight:bold;
+    padding:10px 18px;
+    border-radius:25px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:#dcfce7;
+}
+
+
+
+h2{
+    color:#3a654b;
+    margin-bottom:15px;
+}
+
+
+
+main section,
+.perfil,
+form{
+    background:white;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+
+
+#LP,
+#DW,
+#HT{
+    background:#e3e8e3;
+    border-left:px solid #3da061;
+    border-radius:8px;
+}
+
+
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+th{
+    background:#3a654b;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    vertical-align:top;
+    background: #e3e8e3;
+    max-width:400px;
+}
+
+th,
+td{
+    border:1px solid #ffffff;
+}
+
+tr:nth-child(even){
+    background:#f7faf7;
+}
+
+tr:hover{
+    background:#eef7ee;
+}
+
+
+
+input[type="submit"]{
+    background:#3a654b;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background:#14532d;
+}
+
+
+
+
+.redes a{
+    color:#3a654b;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.redes a:hover{
+    color:#22c55e;
+}
+
+.v-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.v-container iframe{
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
+
+
+footer{
+    background:#14532d;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
