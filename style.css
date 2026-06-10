@@ -13,22 +13,25 @@ y padding es el margen de la caja con respecto a lo interior
 */
 
 
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    
 }
 
 
-
 body{
-    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-family:'Times New Roman', Times, serif, Helvetica, sans-serif;
     background-color:#f4f6f4;
     color:#333;
     line-height:1.6;
 }
 
+h2{
+    color:#3a654b;
+    margin-bottom:15px;
+}
 
 
 header{
@@ -37,7 +40,6 @@ header{
     text-align:center;
     padding:30px;
 }
-
 
 
 nav{
@@ -71,14 +73,6 @@ nav a:hover{
 }
 
 
-
-h2{
-    color:#3a654b;
-    margin-bottom:15px;
-}
-
-
-
 main section,
 .perfil,
 form{
@@ -87,16 +81,13 @@ form{
     box-shadow:0 2px 8px rgba(0,0,0,0.08);
 }
 
-
-
 #LP,
 #DW,
 #HT{
     background:#e3e8e3;
-    border-left:px solid #3da061;
+    border-left:5px solid #3da061;
     border-radius:8px;
 }
-
 
 
 table{
@@ -114,7 +105,7 @@ th{
 td{
     padding:15px;
     vertical-align:top;
-    background: #e3e8e3;
+    background:#e3e8e3;
     max-width:400px;
 }
 
@@ -132,7 +123,6 @@ tr:hover{
 }
 
 
-
 input[type="submit"]{
     background:#3a654b;
     color:white;
@@ -145,8 +135,6 @@ input[type="submit"]:hover{
 }
 
 
-
-
 .redes a{
     color:#3a654b;
     text-decoration:none;
@@ -156,6 +144,7 @@ input[type="submit"]:hover{
 .redes a:hover{
     color:#22c55e;
 }
+
 
 .v-container{
     display:flex;
