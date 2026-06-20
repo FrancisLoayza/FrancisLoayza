@@ -1,99 +1,106 @@
-# 👋 Hola, soy Francis Loayza
+# Mi Sitio Personal
 
-🎓 Estudiante de Ingeniería en Computación en la Escuela Superior Politécnica del Litoral (ESPOL).
+Bienvenido a mi sitio personal. Aquí encontrarás información sobre mi formación académica, proyectos desarrollados e intereses dentro del área de la computación.
 
-Me interesa el desarrollo de software, la inteligencia artificial, el aprendizaje automático, la visión por computadora y el análisis de datos. Disfruto aprender nuevas tecnologías y participar en proyectos que permitan aplicar la informática para resolver problemas reales.
+## Información Personal
 
-## 🚀 Sobre mí
+* Nombre: Francis Alain Loayza Ramirez
+* Carrera: Ingeniería en Computación
+* Universidad: Escuela Superior Politécnica del Litoral (ESPOL)
+* Ciudad: Guayaquil, Ecuador
+* GitHub: https://github.com/FrancisLoayza
 
-Soy estudiante de Ingeniería en Computación con experiencia académica en programación, bases de datos y desarrollo de software. Durante mi formación he trabajado con lenguajes como Python, Java, C y SQL, además de tecnologías web como HTML y CSS.
-
-También he desarrollado proyectos relacionados con redes neuronales convolucionales (CNN), clasificación de imágenes y visión por computadora utilizando TensorFlow y otras herramientas de aprendizaje profundo.
-
-## 🛠 Tecnologías y Herramientas
-
-### Lenguajes de Programación
-
-* Python
-* Java
-* C
-* SQL
-
-### Desarrollo Web
-
-* HTML
-* CSS
-
-### Herramientas y Tecnologías
-
-* Git
-* GitHub
-* Linux
-* TensorFlow
-* NumPy
-* Matplotlib
-* MySQL
-
-## 🎓 Educación
-
-### Escuela Superior Politécnica del Litoral (ESPOL)
-
-**Ingeniería en Computación**
-2023 - Actualidad
-
-### COPOL
-
-**Bachiller en Ciencias**
-Graduado en 2022
-
-## 📂 Proyectos Destacados
+## Proyectos
 
 ### 🐶🐱 PerrosVSGatos
 
-Clasificador de imágenes mediante una red neuronal convolucional (CNN) entrenada para identificar automáticamente perros y gatos.
+Clasificador de imágenes basado en una Red Neuronal Convolucional (CNN) capaz de identificar automáticamente si una imagen corresponde a un perro o un gato.
 
-🔗 Repositorio:
+**Tecnologías utilizadas:**
+
+* Python
+* TensorFlow
+* NumPy
+* Matplotlib
+
+**Repositorio:**
 https://github.com/FrancisLoayza/PerrosVSGatos
+
+---
 
 ### 😊 Detección de Emociones
 
-Clasificador de emociones faciales capaz de identificar siete emociones utilizando técnicas de aprendizaje profundo y TensorFlow.
+Sistema de clasificación de emociones faciales mediante aprendizaje profundo. El modelo identifica siete emociones a partir de imágenes de rostros humanos.
 
-🔗 Repositorio:
+**Tecnologías utilizadas:**
+
+* Python
+* TensorFlow
+* NumPy
+* Matplotlib
+
+**Repositorio:**
 https://github.com/FrancisLoayza/DeteccionEmociones
+
+---
 
 ### 🛒 Plataforma de Compra y Venta
 
-Aplicación web tipo marketplace para la publicación, búsqueda y gestión de productos entre usuarios.
+Aplicación web tipo marketplace para la gestión de productos y publicación de anuncios entre usuarios.
 
-🔗 Repositorio:
+**Tecnologías utilizadas:**
+
+* Java
+* SQL
+* Git
+* GitHub
+
+**Repositorio:**
 https://github.com/jorfxd/ProyectoLP
 
-## 💡 Habilidades
+## Tecnologías Aprendidas
 
-* Resolución de problemas
-* Pensamiento analítico
-* Trabajo en equipo
-* Aprendizaje autónomo
-* Comunicación efectiva
-* Adaptabilidad a nuevas tecnologías
-* Gestión del tiempo
-* Atención al detalle
+### Python
 
-## 🎯 Áreas de Interés
+Lenguaje utilizado para el desarrollo de modelos de inteligencia artificial, procesamiento de datos y programación general.
+
+### Java
+
+Utilizado para el desarrollo de aplicaciones orientadas a objetos y proyectos académicos.
+
+### SQL y MySQL
+
+Empleados para el diseño, consulta y administración de bases de datos relacionales.
+
+### HTML y CSS
+
+Utilizados para la creación y diseño de interfaces web.
+
+### TensorFlow
+
+Framework de aprendizaje profundo utilizado para construir y entrenar redes neuronales convolucionales en proyectos de clasificación de imágenes.
+
+### NumPy
+
+Biblioteca utilizada para operaciones matemáticas y manejo eficiente de arreglos multidimensionales.
+
+### Matplotlib
+
+Herramienta empleada para la visualización de datos y resultados de entrenamiento de modelos.
+
+### Git y GitHub
+
+Utilizados para el control de versiones y la colaboración en proyectos de desarrollo de software.
+
+### Linux
+
+Sistema operativo utilizado como entorno de desarrollo para programación, análisis de datos e inteligencia artificial.
+
+## Áreas de Interés
 
 * Inteligencia Artificial
-* Machine Learning
+* Aprendizaje Automático
 * Visión por Computadora
 * Desarrollo Web
 * Bases de Datos
 * Ciencia de Datos
-* Tecnología e Innovación
-
-## 📫 Contacto
-
-📧 Correo institucional: [faloayza@espol.edu.ec](mailto:faloayza@espol.edu.ec)
-
-💻 GitHub: https://github.com/FrancisLoayza
-
-⭐ Siempre interesado en aprender nuevas tecnologías y desarrollar soluciones innovadoras mediante la informática.
