@@ -1,102 +1,99 @@
-# Mi sitio personal
+# 👋 Hola, soy Francis Loayza
 
-Este es mi sitio personal. Aquí puedes encontrar información sobre mí, mis proyectos y mis intereses.
+🎓 Estudiante de Ingeniería en Computación en la Escuela Superior Politécnica del Litoral (ESPOL).
 
----
+Me interesa el desarrollo de software, la inteligencia artificial, el aprendizaje automático, la visión por computadora y el análisis de datos. Disfruto aprender nuevas tecnologías y participar en proyectos que permitan aplicar la informática para resolver problemas reales.
 
-## Contenido
+## 🚀 Sobre mí
 
-- [Información personal](#información-personal)
-- [Proyectos](#proyectos)
-- [Tecnologías](#tecnologías)
-- [Intereses](#intereses)
-- [Contacto](#contacto)
+Soy estudiante de Ingeniería en Computación con experiencia académica en programación, bases de datos y desarrollo de software. Durante mi formación he trabajado con lenguajes como Python, Java, C y SQL, además de tecnologías web como HTML y CSS.
 
----
+También he desarrollado proyectos relacionados con redes neuronales convolucionales (CNN), clasificación de imágenes y visión por computadora utilizando TensorFlow y otras herramientas de aprendizaje profundo.
 
-## Información personal
+## 🛠 Tecnologías y Herramientas
 
-- **Nombre:** Francis Alain Loayza Ramirez
-- **Ocupación:** Estudiante
-- **Lugar de residencia:** Guayaquil, Ecuador
-- **Correo institucional:** faloayza@espol.edu.ec
-- **GitHub:** https://github.com/FrancisLoayza
+### Lenguajes de Programación
 
----
+* Python
+* Java
+* C
+* SQL
 
-## Proyectos
+### Desarrollo Web
 
-### 📦 Sistema de Inventario
-Aplicación web para la gestión de productos, ventas y stock.
+* HTML
+* CSS
 
-**Tecnologías utilizadas:**
-- HTML
-- CSS
-- JavaScript
-- PHP
-- MySQL
+### Herramientas y Tecnologías
 
-**Estado:**  Finalizado
+* Git
+* GitHub
+* Linux
+* TensorFlow
+* NumPy
+* Matplotlib
+* MySQL
 
-**Repositorio:**  
-https://github.com/FrancisLoayza/sistema-inventario
+## 🎓 Educación
 
----
+### Escuela Superior Politécnica del Litoral (ESPOL)
 
-### 🌦️ Aplicación del Clima
-Aplicación que muestra información meteorológica usando APIs.
+**Ingeniería en Computación**
+2023 - Actualidad
 
-**Tecnologías utilizadas:**
-- JavaScript
-- API REST
-- CSS
+### COPOL
 
-**Estado:** 🛠 En desarrollo
+**Bachiller en Ciencias**
+Graduado en 2022
 
-**Repositorio:**  
-https://github.com/FrancisLoayza/app-clima
+## 📂 Proyectos Destacados
 
----
+### 🐶🐱 PerrosVSGatos
 
-### 🤖 Chatbot en Python
-Chatbot básico desarrollado como proyecto académico.
+Clasificador de imágenes mediante una red neuronal convolucional (CNN) entrenada para identificar automáticamente perros y gatos.
 
-**Tecnologías utilizadas:**
-- Python
+🔗 Repositorio:
+https://github.com/FrancisLoayza/PerrosVSGatos
 
-**Estado:** 📚 Proyecto académico
+### 😊 Detección de Emociones
 
-**Repositorio:**  
-https://github.com/FrancisLoayza/chatbot-python
+Clasificador de emociones faciales capaz de identificar siete emociones utilizando técnicas de aprendizaje profundo y TensorFlow.
 
----
+🔗 Repositorio:
+https://github.com/FrancisLoayza/DeteccionEmociones
 
-## Tecnologías
+### 🛒 Plataforma de Compra y Venta
 
-- Python
-- Java
-- JavaScript
-- HTML5
-- CSS3
-- MySQL
-- Git y GitHub
+Aplicación web tipo marketplace para la publicación, búsqueda y gestión de productos entre usuarios.
 
----
+🔗 Repositorio:
+https://github.com/jorfxd/ProyectoLP
 
-## Intereses
+## 💡 Habilidades
 
-- Desarrollo web
-- Inteligencia artificial
-- Bases de datos
-- Programación
-- Tecnología e innovación
+* Resolución de problemas
+* Pensamiento analítico
+* Trabajo en equipo
+* Aprendizaje autónomo
+* Comunicación efectiva
+* Adaptabilidad a nuevas tecnologías
+* Gestión del tiempo
+* Atención al detalle
 
----
+## 🎯 Áreas de Interés
 
-## Contacto
+* Inteligencia Artificial
+* Machine Learning
+* Visión por Computadora
+* Desarrollo Web
+* Bases de Datos
+* Ciencia de Datos
+* Tecnología e Innovación
 
-📧 **Correo:** faloayza@espol.edu.ec  
-📍 **Ubicación:** Guayaquil, Ecuador  
-💻 **GitHub:** https://github.com/FrancisLoayza
+## 📫 Contacto
 
----
+📧 Correo institucional: [faloayza@espol.edu.ec](mailto:faloayza@espol.edu.ec)
+
+💻 GitHub: https://github.com/FrancisLoayza
+
+⭐ Siempre interesado en aprender nuevas tecnologías y desarrollar soluciones innovadoras mediante la informática.
